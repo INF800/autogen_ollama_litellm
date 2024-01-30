@@ -30,7 +30,7 @@ Otherwise, reply CONTINUE, or the reason why the task is not solved yet.""",
 )
 
 task = """
-Please write a python script to output numbers 1 to 100 and then the user_proxy agent should run the script
+Please write a python script to output numbers 1 to 100 and then the user_proxy agent should run the script. Print success in the end.
 """
 
 user_proxy.initiate_chat(coder, message=task)
